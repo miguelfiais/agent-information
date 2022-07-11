@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/ValorantWallpaper_Bind_galleryimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+ }
+.img-header img{
+    width: 100%;
+    max-width: 700px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    max-height: 700px;
+}
+.container-card{
+    background-color: #fff;
+    width: 450px;
+    border-radius: 10px;
+}
+.agent{
+    background: rgb(3,105,255);
+    background: linear-gradient(49deg, rgba(3,105,255,0.1) 0%, rgba(82,82,251,1) 100%);
+   
+    border-radius: 10px;
+    
+}
+.agent img{
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.agent h2{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+.agent p{
+    width: 90px;
+    border-radius: 5px;
+    background-color: gray;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+}
+.specification{
+    padding: 20px;
+}
+.table-info{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.class{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.list-btn{
+    display: flex;
+    flex-flow: column;
+    margin-left: 20px;
+}
+.list-btn button{
+    height: 40px;
+    width: 100px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px; 
+}
+.list-btn button:hover{
+    opacity: 0.4;
+}
+
+ul{
+    list-style: none;
+}
+.information h2{
+    margin: 20px 0 20px 10px;
+}
+.information li{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
