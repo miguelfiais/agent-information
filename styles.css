@@ -34,11 +34,7 @@ header{
     border-radius: 10px;
 }
 .agent{
-    background: rgb(3,105,255);
-    background: linear-gradient(49deg, rgba(3,105,255,0.1) 0%, rgba(82,82,251,1) 100%);
-   
-    border-radius: 10px;
-    
+    background: rgba(3,105,255,0.5) 
 }
 .agent img{
     max-height: 300px;
@@ -48,12 +44,12 @@ header{
 .agent h2{
     font-weight: 700;
     font-size: 40px;
-
 }
 .agent p{
     width: 90px;
     border-radius: 5px;
     background-color: gray;
+    color: #fff;
     font-weight: 300;
     font-size: 15px;
     text-align: center;
@@ -89,7 +85,6 @@ header{
 .list-btn button:hover{
     opacity: 0.4;
 }
-
 ul{
     list-style: none;
 }
